@@ -4,9 +4,9 @@
 gh extensions install github/gh-codeql
 gh codeql version # first command starts the download
 
-# Create a CodeQL CSV database.
-echo "Creating an empty CodeQL database"
-mkdir -p csv-src
-touch csv-src/empty.csv
-gh codeql database create --language csv --source-root csv-src -- csv-db
-rm -r csv-src
+# Create a blank CodeQL database.
+echo "Creating a blank CodeQL database"
+mkdir -p js-src
+touch js-src/empty.csv
+gh codeql database create --language javascript --source-root js-src -- blank-codeql-database
+rm -r js-src
