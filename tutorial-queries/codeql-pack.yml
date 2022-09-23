@@ -1,4 +1,4 @@
 name: getting-started/tutorial-queries
 version: 0.0.1
 dependencies:
-  codeql/javascript-all: ^0.2.0
+  codeql/tutorial: ^0.0.1

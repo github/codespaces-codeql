@@ -1,0 +1,4 @@
+name: codeql/tutorial
+version: 0.0.1
+library: true
+dbscheme: csv.dbscheme
