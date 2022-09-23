@@ -1,0 +1,59 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "CodeQL tutorial",
+  "isPrimary": true,
+  "steps": [
+    {
+      "directory": "codeql-tutorial-database",
+      "description": "To run a CodeQL query, we first need a CodeQL database to run against.\n\nHere is a sample database we have prepared for you.\n\nTo select it, right-click on the `codeql-tutorial-database` folder in the Explorer view, and click `CodeQL: Set Current Database`."
+    },
+    {
+      "directory": "codeql-tutorial-database",
+      "description": "This step should automatically select the database, but it doesn't work yet! Keep going.",
+      "commands": [
+        "codeQL.setCurrentDatabase?[file:///Users/aditya/github/codeql-codespaces-template/codeql-tutorial-database]"
+      ]
+    },
+    {
+      "file": "tutorial-queries/tutorial.ql",
+      "description": "This is a CodeQL query file.",
+      "line": 1
+    },
+    {
+      "file": "tutorial-queries/tutorial.ql",
+      "description": "This line imports the tutorial library.",
+      "pattern": "import tutorial.*"
+    },
+    {
+      "file": "tutorial-queries/tutorial.ql",
+      "description": "This is the query clause, which determines the output of the query.",
+      "selection": {
+        "start": {
+          "line": 7,
+          "character": 1
+        },
+        "end": {
+          "line": 9,
+          "character": 1
+        }
+      }
+    },
+    {
+      "file": "tutorial-queries/tutorial.ql",
+      "description": "Time to run your first query!\nThis query will be run automatically, and the results will open in a new tab.\n\nTo run other queries in future:\n1. Right-click within a `.ql` query file OR open the Command Palette with `Cmd/Ctrl+Shift+P`\n1. Select the command `CodeQL: Run Query`",
+      "selection": {
+        "start": {
+          "line": 7,
+          "character": 1
+        },
+        "end": {
+          "line": 9,
+          "character": 1
+        }
+      },
+      "commands": [
+        "codeQL.runQuery"
+      ]
+    }
+  ]
+}

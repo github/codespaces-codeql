@@ -1,6 +1,7 @@
 {
   "extensions": [
-    "github.vscode-codeql"
+    "github.vscode-codeql",
+    "vsls-contrib.codetour"
   ],
   "postCreateCommand": "bash .devcontainer/postCreateCommand.sh"
 }
