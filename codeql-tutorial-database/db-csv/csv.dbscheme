@@ -1,0 +1,12 @@
+/** External data **/
+
+externalData(
+  int id : @externalDataElement,
+  varchar(900) path : string ref,
+  int column: int ref,
+  varchar(900) value : string ref
+);
+
+sourceLocationPrefix(
+  string prefix : string ref
+);

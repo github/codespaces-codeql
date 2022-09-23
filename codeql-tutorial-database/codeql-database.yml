@@ -1,0 +1,9 @@
+---
+sourceLocationPrefix: "/workspaces/codeql-codespaces-template/tmp-src"
+baselineLinesOfCode: 0
+unicodeNewlines: false
+columnKind: "utf16"
+primaryLanguage: "csv"
+creationMetadata:
+  cliVersion: "2.10.5"
+  creationTime: "2022-09-23T21:54:50.723647719Z"
