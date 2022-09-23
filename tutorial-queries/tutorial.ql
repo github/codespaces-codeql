@@ -3,3 +3,6 @@
 import tutorial
 
 // Write your first CodeQL query here!
+
+from Person p
+select p
