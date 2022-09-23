@@ -10,3 +10,6 @@ mkdir -p tmp-src
 touch tmp-src/empty.csv
 gh codeql database create --language csv --source-root tmp-src -- codeql-tutorial-database
 rm -r tmp-src
+
+# Copy the dbscheme into the tutorial library, so it matches the DB.
+cp codeql-tutorial-database/db-csv/csv.dbscheme tutorial-lib/

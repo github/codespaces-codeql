@@ -1,4 +1,3 @@
 /*
- * This file is deliberately empty.
- * The CodeQL tutorial library does not use a database scheme.
+ * This file is deliberately empty and will be replaced at startup.
  */
