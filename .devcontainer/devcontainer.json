@@ -3,10 +3,5 @@
     "github.vscode-codeql",
     "vsls-contrib.codetour"
   ],
-  "customizations": {
-    "codespaces": {
-      "openFiles": ["tutorial.code-workspace"]
-    }
-  },
   "postCreateCommand": "bash .devcontainer/postCreateCommand.sh"
 }
