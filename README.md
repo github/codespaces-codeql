@@ -6,7 +6,7 @@ Everything you do here is contained within this one codespace. There is no repos
 
 ## Running the code tour
 
-We've set up a code tour to help you get familiar with a CodeQL project and how to run CodeQL queries. To run the code tour:
+We've set up a code tour to help you get familiar with the basic concepts of CodeQL and show you how to run CodeQL queries. To run the code tour:
 
 1. In your codespace, at the bottom of the File Explorer, expand **CODETOUR**.
 1. Under **CODETOUR**, expand the **CodeQL tutorial**, then click **#1**. 
