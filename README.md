@@ -14,7 +14,7 @@ We've set up a code tour to help you get familiar with the basic concepts of Cod
 
 Once you've finished the code tour, your CodeQL environment will be all set up and ready to use! You can continue to explore the CodeQL template we've made for you, and execute your own CodeQL queries.
 
-## Running custom CodeQL queries
+## Running simple CodeQL queries
 
 You can use this codespace to write and run your own CodeQL queries.
 
