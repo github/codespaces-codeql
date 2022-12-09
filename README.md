@@ -18,6 +18,7 @@ Once you've finished the code tour, your CodeQL environment will be all set up a
 
 You can use this codespace to learn about the concepts of CodeQL, without having to analyze any code.
 
+1. Right click on `codeql-tutorial-database` in the file explorer and select **CodeQL: Set Current Database**.
 1. Edit the `tutorial.ql` file to write a CodeQL query.
 1. Once you've written your query, right-click within the `.ql` query file, and click **CodeQL: Run Query**, or
 1. Open the Command Palette with `Cmd/Ctrl + Shift + P`, start typing "CodeQL", and click on **CodeQL: Run Query**.
