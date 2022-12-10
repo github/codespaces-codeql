@@ -29,4 +29,4 @@ If you would like to use CodeQL to analyze your own projects, you can follow the
 
 ## Further learning 
 
-You can find CodeQL tutorials in our [CodeQL documentation](https://codeql.github.com/docs/writing-codeql-queries/ql-tutorials/). Some of the tutorials provide practice problems that you can use this codespace to work through.
+You can find CodeQL tutorials in our [CodeQL documentation](https://codeql.github.com/docs/writing-codeql-queries/ql-tutorials/). The tutorials introduce concepts that you can use this codespace to practice.
