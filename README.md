@@ -25,7 +25,7 @@ You can use this codespace to learn about the concepts of CodeQL, without having
 
 ## Querying an existing codebase
 
-If you would like to use CodeQL to analyze your own projects, you can follow the instructions in [Setting up CodeQL in Visual Studio Code](https://codeql.github.com/docs/codeql-for-visual-studio-code/setting-up-codeql-in-visual-studio-code/) to set up your own CodeQL environment. 
+If you would like to use CodeQL to analyze a real codebase, you can follow the instructions in [Setting up CodeQL in Visual Studio Code](https://codeql.github.com/docs/codeql-for-visual-studio-code/setting-up-codeql-in-visual-studio-code/) to set up your own CodeQL environment. 
 
 ## Further learning 
 
