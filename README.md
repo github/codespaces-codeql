@@ -16,17 +16,17 @@ Once you've finished the code tour, your CodeQL environment will be all set up a
 
 ## Running simple CodeQL queries
 
-You can use this codespace to learn about the concepts of CodeQL, without having to analyze any code.
+You can use this codespace to learn about the concepts of CodeQL, without having to analyze any code. If you would like to use CodeQL to analyze your own projects, you can follow the instructions in [Setting up CodeQL in Visual Studio Code](https://codeql.github.com/docs/codeql-for-visual-studio-code/setting-up-codeql-in-visual-studio-code/) to set up your own CodeQL environment. 
+
+To run simple CodeQL queries in this codespace:
 
 1. Right click on `codeql-tutorial-database` in the file explorer and select **CodeQL: Set Current Database**.
 1. Edit the `tutorial.ql` file to write a CodeQL query.
 1. Once you've written your query, right-click within the `.ql` query file, and click **CodeQL: Run Query**, or
 1. Open the Command Palette with `Cmd/Ctrl + Shift + P`, start typing "CodeQL", and click on **CodeQL: Run Query**.
 
-## Querying an existing codebase
-
-If you would like to use CodeQL to analyze a real codebase, you can follow the instructions in [Setting up CodeQL in Visual Studio Code](https://codeql.github.com/docs/codeql-for-visual-studio-code/setting-up-codeql-in-visual-studio-code/) to set up your own CodeQL environment. 
-
 ## Further learning 
 
 You can find CodeQL tutorials in our [CodeQL documentation](https://codeql.github.com/docs/writing-codeql-queries/ql-tutorials/). The tutorials introduce concepts that you can use this codespace to practice.
+
+We also have [CodeQL language guides](https://codeql.github.com/docs/codeql-language-guides/) to help you experiment and learn how to write effective and efficient queries for CodeQL databases generated from the languages supported in CodeQL analysis.
