@@ -5,10 +5,7 @@
   ],
    "customizations": {
     "codespaces": {
-      "openFiles": [
-        "README.md",
-        "tutorial-queries/tutorial.ql"
-      ]
+      "openFiles": []
     }
   },
   "postCreateCommand": "bash .devcontainer/postCreateCommand.sh"
