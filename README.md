@@ -1,3 +1,5 @@
+# Codespaces CodeQL
+
 Welcome to your shiny new Codespace running CodeQL! We've got everything fired up and running for you to explore CodeQL.
 
 You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
