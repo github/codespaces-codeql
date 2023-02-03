@@ -12,7 +12,7 @@
     },
     {
       "directory": "codeql-tutorial-database",
-      "description": "To run a CodeQL query, we need to select a CodeQL database.\n\nWe have prepared a sample database for you to use in this tutorial.\nLook for the `codeql-tutorial-database` directory highlighted in the Explorer view in your left sidebar.\n\nWe have selected this as your current database. You can see this is selected by going to the CodeQL extension and checking that `codeql-tutorial-database` is present in the `Databases` panel. From here you are able to select a different database by right-clicking on it and choosing `Set Current Database`",
+      "description": "To run a CodeQL query, we need to select a CodeQL database.\n\nWe have prepared a sample database for you to use in this tutorial.\nLook for the `codeql-tutorial-database` directory highlighted in the Explorer view in your left sidebar.\n\nWe have selected this as your current database. You can see this is selected by going to the CodeQL extension and checking that `codeql-tutorial-database` is present in the `Databases` panel. From here you are able to select a different database by right-clicking on it and choosing `Set Current Database`.",
       "commands": ["codeQL.setDefaultTourDatabase"]
     },
     {
