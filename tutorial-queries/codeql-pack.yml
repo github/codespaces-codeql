@@ -2,4 +2,4 @@ name: getting-started/tutorial-queries
 version: 0.0.1
 dbscheme: csv.dbscheme
 dependencies:
-  codeql/tutorial: ^0.0.1
+  codeql/tutorial: ">=0.0.3"
