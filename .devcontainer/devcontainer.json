@@ -5,7 +5,7 @@
   ],
    "customizations": {
     "codespaces": {
-      "openFiles": []
+      "openFiles": ["README.md"]
     }
   },
   "postCreateCommand": "bash .devcontainer/postCreateCommand.sh"
