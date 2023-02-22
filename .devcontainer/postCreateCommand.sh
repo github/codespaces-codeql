@@ -5,5 +5,5 @@
 # gh codeql version # first command starts the download
 
 # Copy the dbscheme into the tutorial library, so it matches the DB.
-cp codeql-tutorial-database/db-csv/csv.dbscheme tutorial-lib/
-cp codeql-tutorial-database/db-csv/csv.dbscheme.stats tutorial-lib/
+cp codeql-tutorial-database/db-csv/csv.dbscheme tutorial-queries/
+cp codeql-tutorial-database/db-csv/csv.dbscheme.stats tutorial-queries/
