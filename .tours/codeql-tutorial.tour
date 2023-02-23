@@ -20,7 +20,7 @@
     },
     {
       "title": "Extension",
-      "description": "It's time to check out the extension! Click on the QL-Logo at the left to open the extension.\n\nYou can see the 'codeql-tutorial-database' is present in the 'Databases' panel and selected with a checkmark."
+      "description": "It's time to check out the extension! Click on the QL-Logo at the left to open the extension.\n\nYou can see the 'CodeQL Tutorial Database' is present in the 'Databases' panel and selected with a checkmark."
     },
     {
       "file": "tutorial-queries/tutorial.ql",
