@@ -1,4 +1,4 @@
-// Write your first CodeQL query here!
+// This is a CodeQL query file.
 
 // Import the tutorial library.
 // See https://codeql.github.com/docs/writing-codeql-queries/ql-tutorials/#ql-tutorials.

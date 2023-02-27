@@ -4,30 +4,39 @@
   "isPrimary": true,
   "steps": [
     {
-      "description": "First, let's make sure the CodeQL extension for VS Code is active, and has installed the latest version of the CodeQL CLI.\n\nClick `Next` to check for a CodeQL CLI update, and download it if necessary."
-    },
-    {
-      "description": "Checking for a CodeQL CLI update. Click `Next` when you see a popup notification telling you that the CLI has been updated.",
-      "commands": ["codeQL.checkForUpdatesToCLI"]
+      "description": "The CodeQL extension uses the CodeQL CLI to compile and run queries. It automatically manages access to the executable of the CLI for you.\n\nClick 'Next' when you see a popup notification telling you that the CLI has been installed or updated.",
+      "commands": [
+        "codeQL.checkForUpdatesToCLI"
+      ],
+      "title": "Set Up Extension"
     },
     {
       "directory": "codeql-tutorial-database",
-      "description": "To run a CodeQL query, we need to select a CodeQL database.\n\nWe have prepared a sample database for you to use in this tutorial.\nLook for the `codeql-tutorial-database` directory highlighted in the Explorer view in your left sidebar.\n\nWe have selected this as your current database. You can see this is selected by going to the CodeQL extension and checking that `codeql-tutorial-database` is present in the `Databases` panel. From here you are able to select a different database by right-clicking on it and choosing `Set Current Database`.",
-      "commands": ["codeQL.setDefaultTourDatabase"]
+      "description": "To run a CodeQL query, we need to select a CodeQL database.\n\nWe have prepared a sample database for you to use in this tutorial.\nLook for the 'codeql-tutorial-database' directory highlighted in the Explorer view in your left sidebar.\n\nWe have selected this as your current database.",
+      "commands": [
+        "codeQL.setDefaultTourDatabase"
+      ],
+      "title": "Your first Database"
+    },
+    {
+      "title": "Extension",
+      "description": "It's time to check out the extension! Click on the QL-Logo at the left to open the extension.\n\nYou can see the 'CodeQL Tutorial Database' is present in the 'Databases' panel and selected with a checkmark."
     },
     {
       "file": "tutorial-queries/tutorial.ql",
       "description": "This is a CodeQL query file.",
-      "line": 1
+      "line": 1,
+      "title": "Your first Query"
     },
     {
       "file": "tutorial-queries/tutorial.ql",
       "description": "This line imports the tutorial library, so that we can reuse the logic and data from this library in our own query.",
-      "pattern": "import tutorial.*"
+      "pattern": "import tutorial.*",
+      "title": "Import libraries"
     },
     {
       "file": "tutorial-queries/tutorial.ql",
-      "description": "This is the query clause. It determines the output of the query.",
+      "description": "This is the query clause. It determines the output of the query. Click 'Next' to run the Query!",
       "selection": {
         "start": {
           "line": 7,
@@ -37,25 +46,12 @@
           "line": 8,
           "character": 9
         }
-      }
+      },
+      "title": "The select statement"
     },
     {
       "file": "tutorial-queries/tutorial.ql",
-      "description": "It is time to run your first query!\n\nClick `Next` to run this query. The results will appear in a new `CodeQL Query Results` tab.\n\nTo run queries in future, outside this tutorial:\n\n1. Right-click within a `.ql` query file, and click `CodeQL: Run Query`\nOR\n1. Open the Command Palette with `Cmd/Ctrl+Shift+P`, start typing `CodeQL`, and click on `CodeQL: Run Query`.",
-      "selection": {
-        "start": {
-          "line": 7,
-          "character": 1
-        },
-        "end": {
-          "line": 9,
-          "character": 1
-        }
-      }
-    },
-    {
-      "file": "tutorial-queries/tutorial.ql",
-      "description": "Running your first query.",
+      "description": "It is time to run your first query!\n\n We started the process in the background, the results will appear in a new 'CodeQL Query Results' tab shortly.",
       "selection": {
         "start": {
           "line": 7,
@@ -66,9 +62,56 @@
           "character": 1
         }
       },
-      "commands": [
-        "codeQL.runQuery"
-      ]
+      "title": "Run Query"
+    },
+    {
+      "file": "tutorial-queries/tutorial.ql",
+      "description": "You can see a history of all run queries on the left side in the extension.",
+      "selection": {
+        "start": {
+          "line": 7,
+          "character": 1
+        },
+        "end": {
+          "line": 9,
+          "character": 1
+        }
+      },
+      "title": "Query History"
+    },
+    {
+      "file": "tutorial-queries/tutorial.ql",
+      "description": "To run queries by yourself, outside this tutorial:\n\n1. Right-click within a `.ql` query file, and click 'CodeQL: Run Query on Selected Database'\nOR\n1. Open the Command Palette with `Cmd/Ctrl+Shift+P`, start typing 'CodeQL', and click on 'CodeQL: Run Query on Selected Database'.",
+      "selection": {
+        "start": {
+          "line": 7,
+          "character": 1
+        },
+        "end": {
+          "line": 9,
+          "character": 1
+        }
+      },
+      "title": "Run Query yourself"
+    },
+    {
+      "file": "tutorial-queries/tutorial.ql",
+      "description": "It's time to add your own database! \n\nGo to the extenion and use one of the top bar buttons. When you use the GitHub logo for example you can enter the repository name of your favourite open source repository.\nAfter the download has finished the Database will be automatically selected.\n\nYou can only add a database if the repository has advanced security enabled.",
+      "selection": {
+        "start": {
+          "line": 7,
+          "character": 1
+        },
+        "end": {
+          "line": 9,
+          "character": 1
+        }
+      },
+      "title": "Add your own Database"
+    },
+    {
+      "title": "CodeQL Pack",
+      "description": "After adding a new Database we create a new CodeQL Pack for you. \n\nThis loads all dependencies needed for the language of the Database, so that you can start right away creating a query."
     }
   ]
 }
