@@ -14,7 +14,10 @@
       "directory": ".tours/codeql-tutorial-database",
       "description": "To run a CodeQL query, we need to select a CodeQL database.\n\nWe have prepared a sample database for you to use in this tutorial.\nLook for the 'codeql-tutorial-database' directory highlighted in the Explorer view in your left sidebar.\n\nWe have selected this as your current database.",
       "commands": [
-        "codeQL.setDefaultTourDatabase"
+        "codeQL.setDefaultTourDatabase",
+        "codetour.sendTextToTerminal?[\"cd tutorial-queries\"]",
+        "codetour.sendTextToTerminal?[\"codeql pack install\"]",
+        "codetour.sendTextToTerminal?[\"cd ..\"]"
       ],
       "title": "Your first Database"
     },
