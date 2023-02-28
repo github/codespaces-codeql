@@ -62,7 +62,10 @@
           "character": 1
         }
       },
-      "title": "Run Query"
+      "title": "Run Query",
+      "commands": [
+        "codeQL.runQuery"
+      ]
     },
     {
       "file": "tutorial-queries/tutorial.ql",
