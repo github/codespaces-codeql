@@ -99,7 +99,7 @@
     },
     {
       "file": "tutorial-queries/tutorial.ql",
-      "description": "It's time to add your own database! \n\nGo to the extenion and use one of the top bar buttons. When you use the GitHub logo for example you can enter the repository name of your favourite open source repository.\nAfter the download has finished the Database will be automatically selected.\n\nYou can only add a database if the repository has advanced security enabled.",
+      "description": "It's time to add your own database! \n\nGo to the extension and use one of the top bar buttons. When you use the GitHub logo for example you can enter the repository name of your favourite open source repository.\nAfter the download has finished the Database will be automatically selected.\n\nYou can only add a database if the repository has advanced security enabled.",
       "selection": {
         "start": {
           "line": 7,
