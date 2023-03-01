@@ -8,5 +8,6 @@
       "openFiles": ["README.md"]
     }
   },
+  "onCreateCommand": "bash .devcontainer/onCreateCommand.sh",
   "postCreateCommand": "bash .devcontainer/postCreateCommand.sh"
 }

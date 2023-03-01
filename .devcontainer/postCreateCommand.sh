@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Assumes the gh CLI is present in the default Codespaces image.
-# gh extensions install github/gh-codeql
-# gh codeql version # first command starts the download
-
 # Copy the dbscheme into the tutorial library, so it matches the DB.
 cp .tours/codeql-tutorial-database/db-csv/csv.dbscheme tutorial-queries/
 cp .tours/codeql-tutorial-database/db-csv/csv.dbscheme.stats tutorial-queries/
