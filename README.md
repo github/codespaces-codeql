@@ -18,16 +18,17 @@ Once you've finished the code tour, your CodeQL environment will be all set up a
 
 ## Running simple CodeQL queries
 
-You can use this codespace to learn about the concepts of CodeQL, without having to analyze any code. If you would like to use CodeQL to analyze your own projects, you can follow the instructions in [Setting up CodeQL in Visual Studio Code](https://codeql.github.com/docs/codeql-for-visual-studio-code/setting-up-codeql-in-visual-studio-code/) to set up your own CodeQL environment. 
+You can use this codespace to learn about the concepts of CodeQL, without having to analyze any code. If you would like to use CodeQL to analyze your own projects, you can follow the instructions in [Setting up CodeQL in Visual Studio Code](https://codeql.github.com/docs/codeql-for-visual-studio-code/setting-up-codeql-in-visual-studio-code/) to set up your own CodeQL environment.
 
 To run simple CodeQL queries in this codespace:
 
-1. Right click on `codeql-tutorial-database` in the file explorer and select **CodeQL: Set Current Database**.
+1. Switch to the CodeQL extension on the left by clicking the QL logo.
+1. Make sure the `CodeQL Tutorial Database` is selected in the Databases section. If it's not, click the **Select** button next to its name.
 1. Edit the `tutorial.ql` file to write a CodeQL query.
-1. Once you've written your query, right-click within the `.ql` query file, and click **CodeQL: Run Query**, or
-1. Open the Command Palette with `Cmd/Ctrl + Shift + P`, start typing "CodeQL", and click on **CodeQL: Run Query**.
+1. Once you've written your query, right-click within the `.ql` query file, and click **CodeQL: Run Query on Selected Database**, or
+1. Open the Command Palette with `Cmd/Ctrl + Shift + P`, start typing "CodeQL", and click on **CodeQL: Run Query on Selected Database**.
 
-## Further learning 
+## Further learning
 
 You can find [CodeQL tutorials](https://codeql.github.com/docs/writing-codeql-queries/ql-tutorials/) in our CodeQL documentation. The tutorials introduce concepts that you can use this codespace to practice.
 
