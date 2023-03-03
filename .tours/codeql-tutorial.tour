@@ -12,7 +12,7 @@
     },
     {
       "directory": ".tours/codeql-tutorial-database",
-      "description": "To run a CodeQL query, we need to select a CodeQL database.\n\nWe have prepared a sample database for you to use in this tutorial.\nLook for the 'codeql-tutorial-database' directory highlighted in the Explorer view in your left sidebar.\n\nWe have selected this as your current database.",
+      "description": "To run a CodeQL query, we need to select a CodeQL database.\n\nWe have prepared a sample database for you to use in this tutorial. We have selected this as your current database.",
       "commands": [
         "codeQL.setDefaultTourDatabase"
       ],
@@ -20,12 +20,12 @@
     },
     {
       "title": "Extension",
-      "description": "It's time to check out the extension!\n\nIn the CodeQL view, you can see that the 'CodeQL Tutorial Database' is present in the 'Databases' panel and selected with a check mark.",
+      "description": "It's time to check out the extension!\n\nIn the CodeQL view, you can see that the 'CodeQL Tutorial Database' is present in the 'Databases' panel and is selected with a check mark.",
       "view": "codeQLDatabases"
     },
     {
       "file": "tutorial-queries/tutorial.ql",
-      "description": "This is a CodeQL query file.",
+      "description": "Now let's look at a query.\n\nThis is a CodeQL query file. It has a `.ql` file extension.",
       "line": 1,
       "title": "Your first query"
     },
@@ -70,7 +70,7 @@
     },
     {
       "file": "tutorial-queries/tutorial.ql",
-      "description": "You can see a history of all run queries on the left side in the extension.",
+      "description": "You can see a history of all run queries in the 'Query History' panel in the extension.",
       "selection": {
         "start": {
           "line": 7,
@@ -81,11 +81,12 @@
           "character": 1
         }
       },
-      "title": "Query history"
+      "title": "Query history",
+      "view": "codeQLQueryHistory"
     },
     {
       "file": "tutorial-queries/tutorial.ql",
-      "description": "To run queries by yourself, outside this tutorial:\n\n1. Right-click within a `.ql` query file, and click 'CodeQL: Run Query on Selected Database'\nOR\n1. Open the Command Palette with `Cmd/Ctrl+Shift+P`, start typing 'CodeQL', and click on 'CodeQL: Run Query on Selected Database'.",
+      "description": "To run a query manually, outside this tutorial:\n\n1. Right-click within a `.ql` query file, and click 'CodeQL: Run Query on Selected Database'\nOR\n1. Open the Command Palette with `Cmd/Ctrl+Shift+P`, start typing 'CodeQL', and click 'CodeQL: Run Query on Selected Database'.",
       "selection": {
         "start": {
           "line": 7,
@@ -100,7 +101,7 @@
     },
     {
       "file": "tutorial-queries/tutorial.ql",
-      "description": "It's time to add your own database! \n\nGo to the extension and use one of the top bar buttons. When you use the GitHub logo for example you can enter the repository name of your favorite open source repository.\nAfter the download has finished the Database will be automatically selected.",
+      "description": "It's time to add your own database and analyze some real code!\n\nHover over the 'Databases' title bar and click 'Download Database from GitHub'. Enter the repository name of your favorite open source repository.\nAfter the download has finished, the database will be automatically selected.",
       "selection": {
         "start": {
           "line": 7,
@@ -111,11 +112,12 @@
           "character": 1
         }
       },
-      "title": "Add your own database"
+      "title": "Add your own database",
+      "view": "codeQLDatabases"
     },
     {
       "title": "CodeQL pack",
-      "description": "After adding a new database we create a new CodeQL Pack for you. \n\nThis loads all dependencies needed for the language of the database, and creates an example query that you can run and modify. Open `example.ql` inside the 'codeql-custom-queries-*' folder to get started.",
+      "description": "After adding a database we create a new CodeQL pack for you.\n\nThis loads all dependencies needed for the language of the database, and creates an example query that you can run and modify. Open `example.ql` inside the 'codeql-custom-queries-*' folder to get started.",
       "view": "explorer"
     }
   ]
