@@ -20,7 +20,8 @@
     },
     {
       "title": "Extension",
-      "description": "It's time to check out the extension! Click on the QL-Logo at the left to open the extension.\n\nYou can see the 'CodeQL Tutorial Database' is present in the 'Databases' panel and selected with a checkmark."
+      "description": "It's time to check out the extension!\n\nIn the CodeQL view, you can see that the 'CodeQL Tutorial Database' is present in the 'Databases' panel and selected with a check mark.",
+      "view": "codeQLDatabases"
     },
     {
       "file": "tutorial-queries/tutorial.ql",
@@ -99,7 +100,7 @@
     },
     {
       "file": "tutorial-queries/tutorial.ql",
-      "description": "It's time to add your own database! \n\nGo to the extension and use one of the top bar buttons. When you use the GitHub logo for example you can enter the repository name of your favourite open source repository.\nAfter the download has finished the Database will be automatically selected.\n\nYou can only add a database if the repository has advanced security enabled.",
+      "description": "It's time to add your own database! \n\nGo to the extension and use one of the top bar buttons. When you use the GitHub logo for example you can enter the repository name of your favorite open source repository.\nAfter the download has finished the Database will be automatically selected.",
       "selection": {
         "start": {
           "line": 7,
@@ -114,7 +115,8 @@
     },
     {
       "title": "CodeQL Pack",
-      "description": "After adding a new Database we create a new CodeQL Pack for you. \n\nThis loads all dependencies needed for the language of the Database, so that you can start right away creating a query."
+      "description": "After adding a new Database we create a new CodeQL Pack for you. \n\nThis loads all dependencies needed for the language of the Database, and creates an example query that you can run and modify. Open `example.ql` inside the 'codeql-custom-queries-*' folder to get started.",
+      "view": "explorer"
     }
   ]
 }
