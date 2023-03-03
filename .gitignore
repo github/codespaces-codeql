@@ -2,5 +2,3 @@
 .tours/codeql-tutorial-database/db-csv/default/cache/
 .tours/codeql-tutorial-database/db-csv/default/strings/
 .cache/
-
-tutorial-queries/codeql-pack.lock.yml

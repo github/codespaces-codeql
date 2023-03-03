@@ -1,0 +1,6 @@
+---
+lockVersion: 1.0.0
+dependencies:
+  codeql/tutorial:
+    version: 0.0.4
+compiled: false
