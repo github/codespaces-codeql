@@ -4,11 +4,8 @@
   "isPrimary": true,
   "steps": [
     {
-      "description": "The CodeQL extension uses the CodeQL CLI to compile and run queries. It automatically manages access to the executable of the CLI for you.\n\nClick 'Next' when you see a popup notification telling you that the CLI has been installed or updated.",
-      "commands": [
-        "codeQL.checkForUpdatesToCLI"
-      ],
-      "title": "Set up extension"
+      "description": "First let's talk about the CodeQL CLI.\n\nThe CodeQL extension uses the CodeQL CLI to compile and run queries. It automatically manages access to the executable of the CLI for you.\n\nWe've already set it up to use in this tutorial. To learn more about the CodeQL CLI, see [the docs](https://codeql.github.com/).",
+      "title": "The CodeQL CLI"
     },
     {
       "directory": ".tours/codeql-tutorial-database",
