@@ -4,28 +4,25 @@
   "isPrimary": true,
   "steps": [
     {
-      "description": "The CodeQL extension uses the CodeQL CLI to compile and run queries. It automatically manages access to the executable of the CLI for you.\n\nClick 'Next' when you see a popup notification telling you that the CLI has been installed or updated.",
-      "commands": [
-        "codeQL.checkForUpdatesToCLI"
-      ],
-      "title": "Set up extension"
+      "description": "First let's talk about the CodeQL CLI.\n\nThe CodeQL extension uses the CodeQL CLI to compile and run queries. It automatically manages access to the executable of the CLI for you.\n\nWe've already set it up to use in this tutorial. To learn more about the CodeQL CLI, see [the docs](https://codeql.github.com/).",
+      "title": "The CodeQL CLI"
     },
     {
       "directory": ".tours/codeql-tutorial-database",
-      "description": "To run a CodeQL query, we need to select a CodeQL database.\n\nWe have prepared a sample database for you to use in this tutorial. We have selected this as your current database.",
+      "description": "To run a CodeQL query, we first need to select [a CodeQL database](https://codeql.github.com/docs/codeql-overview/about-codeql/#about-codeql-databases).\n\nWe've just added a sample one and set it as your current database.\n\nClick 'Next' to see the database.",
       "commands": [
         "codeQL.setDefaultTourDatabase"
       ],
       "title": "Your first database"
     },
     {
-      "title": "Extension",
-      "description": "It's time to check out the extension!\n\nIn the CodeQL view, you can see that the 'CodeQL Tutorial Database' is present in the 'Databases' panel and is selected with a check mark.",
+      "title": "The CodeQL extension",
+      "description": "We've now moved into the CodeQL extension!\n\nOn the left hand side, you can see the 'DATABASES' panel where the 'CodeQL Tutorial Database' is present and is selected with a check mark.",
       "view": "codeQLDatabases"
     },
     {
       "file": "tutorial-queries/tutorial.ql",
-      "description": "Now let's look at a query.\n\nThis is a CodeQL query file. It has a `.ql` file extension.",
+      "description": "Now let's look at [a CodeQL query](https://codeql.github.com/docs/writing-codeql-queries/codeql-queries/).\n\nThis is a query file. It has a `.ql` file extension.",
       "line": 1,
       "title": "Your first query"
     },
@@ -37,7 +34,7 @@
     },
     {
       "file": "tutorial-queries/tutorial.ql",
-      "description": "This is the query clause. It determines the output of the query. Click 'Next' to run the query!",
+      "description": "This is the query clause.\n\nIt determines the output of the query. Click 'Next' to run the query!",
       "selection": {
         "start": {
           "line": 7,
@@ -52,7 +49,7 @@
     },
     {
       "file": "tutorial-queries/tutorial.ql",
-      "description": "It is time to run your first query!\n\n We started the process in the background, the results will appear in a new 'CodeQL Query Results' tab shortly.",
+      "description": "It is time to run your first query!\n\nWe started the process in the background, the results will appear in a new 'CodeQL Query Results' tab shortly.",
       "selection": {
         "start": {
           "line": 7,
@@ -81,7 +78,7 @@
           "character": 1
         }
       },
-      "title": "Query history",
+      "title": "Query History",
       "view": "codeQLQueryHistory"
     },
     {
@@ -117,7 +114,7 @@
     },
     {
       "title": "CodeQL pack",
-      "description": "After adding a database we create a new CodeQL pack for you.\n\nThis loads all dependencies needed for the language of the database, and creates an example query that you can run and modify. Open `example.ql` inside the 'codeql-custom-queries-*' folder to get started.",
+      "description": "After adding a database we create a new CodeQL pack for you.\n\nThis loads all dependencies needed for the language of the database, and creates an example query that you can run and modify.\n\nOpen `example.ql` inside the 'codeql-custom-queries-*' folder to get started.",
       "view": "explorer"
     }
   ]
