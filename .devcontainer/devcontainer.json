@@ -6,6 +6,9 @@
    "customizations": {
     "codespaces": {
       "openFiles": ["README.md"]
+    },
+    "vscode": {
+      "vscode.openFolder": "vscode.window.activeTextEditor.document.uri.fsPath('tutorial.code-workspace')"
     }
   },
   "onCreateCommand": "bash .devcontainer/onCreateCommand.sh",
