@@ -1,13 +1,14 @@
 {
-  "extensions": [
-    "github.vscode-codeql",
-    "vsls-contrib.codetour"
-  ],
-   "customizations": {
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "github.vscode-codeql",
+        "vsls-contrib.codetour"
+      ],
+    },
     "codespaces": {
       "openFiles": ["README.md"]
     }
   },
-  "onCreateCommand": "bash .devcontainer/onCreateCommand.sh",
-  "postCreateCommand": "bash .devcontainer/postCreateCommand.sh"
+  "onCreateCommand": "bash .devcontainer/onCreateCommand.sh"
 }
