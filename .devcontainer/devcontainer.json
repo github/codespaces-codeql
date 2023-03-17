@@ -1,9 +1,11 @@
 {
-  "extensions": [
-    "github.vscode-codeql",
-    "vsls-contrib.codetour"
-  ],
-   "customizations": {
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "github.vscode-codeql",
+        "vsls-contrib.codetour"
+      ],
+    },
     "codespaces": {
       "openFiles": ["README.md"]
     }
