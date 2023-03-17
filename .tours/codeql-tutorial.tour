@@ -4,7 +4,12 @@
   "isPrimary": true,
   "steps": [
     {
-      "description": "First let's talk about the CodeQL CLI.\n\nThe CodeQL extension uses the CodeQL CLI to compile and run queries. It automatically manages access to the executable of the CLI for you.\n\nWe've already set it up to use in this tutorial. To learn more about the CodeQL CLI, see [the docs](https://codeql.github.com/).",
+      "file": "tutorial.code-workspace",
+      "description": "We will need to load the preconfigured workspace in order to be able to write queries. You will be offered the option to open the workspace file, please click 'Open workspace'. This will reload the codespace while we load everything.",
+      "title": "Open the workspace"
+    },
+    {
+      "description": "Now let's talk about the CodeQL CLI.\n\nThe CodeQL extension uses the CodeQL CLI to compile and run queries. It automatically manages access to the executable of the CLI for you.\n\nWe've already set it up to use in this tutorial. To learn more about the CodeQL CLI, see [the docs](https://codeql.github.com/).",
       "title": "The CodeQL CLI"
     },
     {

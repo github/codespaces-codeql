@@ -5,7 +5,11 @@
   ],
    "customizations": {
     "codespaces": {
-      "openFiles": ["README.md"]
+      "openFiles": ["tutorial.code-workspace", "README.md"]
+    },
+    "vscode": {
+      // open workspace in a new window
+      "workbench.startupEditor": "tutorial.code-workspace",
     }
   },
   "onCreateCommand": "bash .devcontainer/onCreateCommand.sh",
