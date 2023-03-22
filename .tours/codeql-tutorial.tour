@@ -4,12 +4,21 @@
   "isPrimary": true,
   "steps": [
     {
-      "description": "First let's talk about the CodeQL CLI.\n\nThe CodeQL extension uses the CodeQL CLI to compile and run queries. It automatically manages access to the executable of the CLI for you.\n\nWe've already set it up to use in this tutorial. To learn more about the CodeQL CLI, see [the docs](https://codeql.github.com/).",
+      "description": "Welcome to the CodeQL tour!\n\nIn the next steps, we'll start exploring the CodeQL extension. If this is your first time activating the extension, you may be prompted to reload your workspace and decide whether to allow telemetry.\n\nTo get started, click 'Next (The CodeQL extension)'.",
+      "title": "Welcome!"
+    },
+    {
+      "description": "The CodeQL extension adds rich language support for CodeQL and allows you to easily find problems in codebases.",
+      "title": "The CodeQL extension",
+      "view": "codeQLDatabases"
+    },
+    {
+      "description": "The CodeQL extension uses the CodeQL CLI to compile and run queries. It automatically manages access to the executable of the CLI for you.\n\nWe've already set it up to use in this tutorial. To learn more about the CodeQL CLI, see [the docs](https://codeql.github.com/).",
       "title": "The CodeQL CLI"
     },
     {
       "directory": ".tours/codeql-tutorial-database",
-      "description": "To run a CodeQL query, we first need to select [a CodeQL database](https://codeql.github.com/docs/codeql-overview/about-codeql/#about-codeql-databases).\n\nWe've just added a sample one and set it as your current database.\n\nClick 'Next' to see the database.",
+      "description": "To run a CodeQL query, we first need to select [a CodeQL database](https://codeql.github.com/docs/codeql-overview/about-codeql/#about-codeql-databases).\n\nWe've just added a sample one (CodeQL Tutorial Database) and set it as your current database in the extension.",
       "commands": [
         "codeQL.setDefaultTourDatabase"
       ],
@@ -17,7 +26,7 @@
     },
     {
       "title": "The CodeQL extension",
-      "description": "We've now moved into the CodeQL extension!\n\nOn the left hand side, you can see the 'DATABASES' panel where the 'CodeQL Tutorial Database' is present and is selected with a check mark.",
+      "description": "On the left hand side, you can see the 'DATABASES' panel where the 'CodeQL Tutorial Database' is present and is selected with a check mark.",
       "view": "codeQLDatabases"
     },
     {
@@ -49,7 +58,7 @@
     },
     {
       "file": "tutorial-queries/tutorial.ql",
-      "description": "It is time to run your first query!\n\nWe started the process in the background, the results will appear in a new 'CodeQL Query Results' tab shortly.",
+      "description": "It's time to run your first query!\n\nWe started the process in the background, the results will appear in a new 'CodeQL Query Results' tab shortly.",
       "selection": {
         "start": {
           "line": 7,
