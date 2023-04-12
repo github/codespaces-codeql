@@ -107,7 +107,7 @@
     },
     {
       "file": "tutorial-queries/tutorial.ql",
-      "description": "It's time to add your own database and analyze some real code!\n\nHover over the 'Databases' title bar and click 'Download Database from GitHub'. Enter the repository name of your favorite open source repository.\nAfter the download has finished, the database will be automatically selected.",
+      "description": "It's time to add your own database and analyze some real code!\n\nBring up the command pallete (Cmd/Ctrl + P) and type '> CodeQL: Create Query'. Choose the language of your favorite open source repository.\nAfterwards, you will be asked to provide the name of your repo so we can download the CodeQL database for it. You can either type your preferred repo or go with the suggestion we've provided. When the download has finished, the database will be automatically selected.",
       "selection": {
         "start": {
           "line": 7,
