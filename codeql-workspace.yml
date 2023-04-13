@@ -1,2 +1,3 @@
 provide:
   - "tutorial-queries/codeql-pack.yml"
+  - "codeql-custom-queries-*/codeql-pack.yml"
