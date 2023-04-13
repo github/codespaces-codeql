@@ -107,7 +107,7 @@
     },
     {
       "file": "tutorial-queries/tutorial.ql",
-      "description": "It's time to add your own database and analyze some real code!\n\nBring up the command pallete (Cmd/Ctrl + P) and type '> CodeQL: Create Query'. Choose the language of your favorite open source repository.\nAfterwards, you will be asked to provide the name of your repo so we can download the CodeQL database for it. You can either type your preferred repo or go with the suggestion we've provided. When the download has finished, the database will be automatically selected.",
+      "description": "It's time to create your own query and analyze some real code!\n\n1. Open the Command Palette with `Cmd/Ctrl+Shift+P` and type 'CodeQL: Create Query'.\n2. Choose the language that you'd like to analyze.\n3. Type the name of a repository with that language, so that we can download the CodeQL database for it.\n\n When the download has finished, the database will be automatically selected, so you can immediately modify and run your query!",
       "selection": {
         "start": {
           "line": 7,
@@ -118,7 +118,7 @@
           "character": 1
         }
       },
-      "title": "Add your own database",
+      "title": "Add your own query",
       "view": "codeQLDatabases"
     },
     {
