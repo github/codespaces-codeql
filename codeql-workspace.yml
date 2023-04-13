@@ -1,2 +1,2 @@
 provide:
-  - "*/codeql-packs/**/qlpack.yml"
+  - "tutorial-queries/codeql-pack.yml"
