@@ -13,7 +13,7 @@
       "view": "codeQLDatabases"
     },
     {
-      "description": "The CodeQL extension uses the CodeQL CLI to compile and run queries. It automatically manages access to the executable of the CLI for you.\n\nWe've already set it up to use in this tutorial. To learn more about the CodeQL CLI, see [the docs](https://codeql.github.com/).",
+      "description": "The CodeQL extension uses the CodeQL CLI to compile and run queries. It automatically manages access to the executable of the CLI for you.\n\nWe've already set it up to use in this tutorial. To learn more about the CodeQL CLI, see [the docs](https://docs.github.com/en/code-security/codeql-cli).",
       "title": "The CodeQL CLI"
     },
     {
