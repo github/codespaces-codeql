@@ -5,6 +5,7 @@
 		}
 	],
 	"settings":	{
-		"codeQL.codespacesTemplate": true
+		"codeQL.codespacesTemplate": true,
+		"codeQL.githubDatabase.download": "never",
 	}	
 }
